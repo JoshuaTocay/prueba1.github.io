@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            margin: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+        .price {
+            color: #e67e22;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Muebles para Salas</h1>
+    <div class="container">
+        <div class="product">
+            <img src="sillon1.jpg" alt="Sillón Moderno">
+            <div class="product-info">
+                <h2>Sillón Moderno</h2>
+                <p>Elegante sillón de madera con tapizado de alta calidad.</p>
+                <p class="price">$250</p>
+                <a href="#">Más información</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="mesa1.jpg" alt="Mesa de Centro">
+            <div class="product-info">
+                <h2>Mesa de Centro</h2>
+                <p>Mesa de centro de madera maciza, ideal para cualquier sala.</p>
+                <p class="price">$300</p>
+                <a href="#">Más información</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="estanteria1.jpg" alt="Estantería">
+            <div class="product-info">
+                <h2>Estantería Moderna</h2>
+                <p>Estantería elegante, perfecta para almacenar y exhibir.</p>
+                <p class="price">$200</p>
+                <a href="#">Más información</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="sillon2.jpg" alt="Sillón Reclinable">
+            <div class="product-info">
+                <h2>Sillón Reclinable</h2>
+                <p>Sillón reclinable de madera, comodidad garantizada.</p>
+                <p class="price">$350</p>
+                <a href="#">Más información</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="mesa2.jpg" alt="Mesa Lateral">
+            <div class="product-info">
+                <h2>Mesa Lateral</h2>
+                <p>Mesa lateral de diseño contemporáneo, ideal para complementar.</p>
+                <p class="price">$150</p>
+                <a href="#">Más información</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="prueba1.html">Volver a la página principal</a>
+
+</body>
+</html>

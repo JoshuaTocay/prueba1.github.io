@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a Mueblería San José, donde encuentras los mejores muebles para tu hogar.">
+    <meta name="keywords" content="muebles, decoración, salas, comedor, dormitorios">
+    <title>Mueblería San José</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('tipos-de-muebles-de-cocina-1.jpg') no-repeat center center fixed; /* Cambia 'fondo.jpg' por la ruta de tu imagen */
+            background-size: cover; /* Esto hace que la imagen cubra toda la pantalla */
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(58, 58, 58, 0.8); /* Fondo semitransparente para el header */
+            color: white;
+            padding: 15px 30px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente para el contenedor */
+            border-radius: 10px;
+        }
+        .highlighted {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .highlighted img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .category {
+            text-align: center;
+            margin: 15px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: calc(25% - 30px);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .product {
+            text-align: center;
+            margin: 15px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: calc(30% - 30px);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Mueblería San José</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#estilo">Estilo</a>
+            <a href="#contactos">Contactos</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="highlighted">
+            <h2>Lo Más Destacado</h2>
+            <img src="Imagen de WhatsApp 2024-10-08 a las 21.58.49_4db284da.jpg" alt="Catálogo de Muebles" />
+            <style>
+                .highlighted img {
+                    width: 300px; /* Cambia a tu tamaño deseado */
+                    height: 200px; /* Cambia a tu tamaño deseado */
+                    object-fit: cover; /* Ajusta la imagen para cubrir el área */
+                    border-radius: 10px; /* Redondea las esquinas */
+                }
+            </style>
+            
+        </div>
+
+        <h3>Categorías</h3>
+        <div class="categories">
+            <div class="category" onclick="window.location.href='salas.html'">
+                <img src="salas .jpg" alt="Salas" /> <!-- Cambia la ruta aquí -->
+                <style>
+                    .highlighted img {
+                        width: 300px; /* Cambia a tu tamaño deseado */
+                        height: 200px; /* Cambia a tu tamaño deseado */
+                        object-fit: cover; /* Ajusta la imagen para cubrir el área */
+                        border-radius: 10px; /* Redondea las esquinas */
+                    }
+                </style>
+                
+                <p>Salas</p>
+            </div>
+            <div class="category" onclick="window.location.href='comedor.html'">
+                <img src="IMG-20241009-WA0050.jpg" alt="Comedor" /> <!-- Cambia la ruta aquí -->
+                <style>
+                    .highlighted img {
+                        width: 300px; /* Cambia a tu tamaño deseado */
+                        height: 200px; /* Cambia a tu tamaño deseado */
+                        object-fit: cover; /* Ajusta la imagen para cubrir el área */
+                        border-radius: 10px; /* Redondea las esquinas */
+                    }
+                </style>
+                <p>Comedor</p>
+            </div>
+            <div class="category" onclick="window.location.href='escritorios.html'">
+                <img src="descarga (1).jpeg" alt="Escritorios" /> <!-- Cambia la ruta aquí -->
+                <style>
+                    .highlighted img {
+                        width: 300px; /* Cambia a tu tamaño deseado */
+                        height: 200px; /* Cambia a tu tamaño deseado */
+                        object-fit: cover; /* Ajusta la imagen para cubrir el área */
+                        border-radius: 10px; /* Redondea las esquinas */
+                    }
+                </style>
+                <p>Escritorios</p>
+            </div>
+            <div class="category" onclick="window.location.href='gabinetes.html'">
+                <img src="IMG-20241009-WA0022.jpg" alt="Gabinetes" /> <!-- Cambia la ruta aquí -->
+                <style>
+                    .highlighted img {
+                        width: 300px; /* Cambia a tu tamaño deseado */
+                        height: 200px; /* Cambia a tu tamaño deseado */
+                        object-fit: cover; /* Ajusta la imagen para cubrir el área */
+                        border-radius: 10px; /* Redondea las esquinas */
+                    }
+                </style>
+                <p>Gabinetes</p>
+            </div>
+        </div>
+
+        <h3>Productos Destacados</h3>
+        <div class="products">
+            <div class="product">
+                <img src="producto1.jpg" alt="Producto 1" />
+                <h4>Nombre del Mueble 1</h4>
+                <p>Descripción breve del mueble 1.</p>
+                <p>$Precio 1</p>
+            </div>
+            <div class="product">
+                <img src="producto2.jpg" alt="Producto 2" />
+                <h4>Nombre del Mueble 2</h4>
+                <p>Descripción breve del mueble 2.</p>
+                <p>$Precio 2</p>
+            </div>
+            <div class="product">
+                <img src="producto3.jpg" alt="Producto 3" />
+                <h4>Nombre del Mueble 3</h4>
+                <p>Descripción breve del mueble 3.</p>
+                <p>$Precio 3</p>
+            </div>
+            <div class="product">
+                <img src="producto4.jpg" alt="Producto 4" />
+                <h4>Nombre del Mueble 4</h4>
+                <p>Descripción breve del mueble 4.</p>
+                <p>$Precio 4</p>
+            </div>
+        </div>
+
+        <h3>Categorías por Tipo</h3>
+        <div class="categories">
+            <div class="category" onclick="window.location.href='dormitorios.html'">
+                <img src="dormitorios.jpg" alt="Dormitorios" class="category-img" /> <!-- Cambia la ruta aquí -->
+                <p>Dormitorios</p>
+            </div>
+        
+            <div class="category" onclick="window.location.href='oficina.html'">
+                <img src="oficina.jpg" alt="Oficina" class="category-img" /> <!-- Cambia la ruta aquí -->
+                <p>Oficina</p>
+            </div>
+        
+            <div class="category" onclick="window.location.href='sala.html'">
+                <img src="salas.jpg" alt="Sala" class="category-img" /> <!-- Cambia la ruta aquí -->
+                <p>Comedores</p>
+            </div>
+        
+            <div class="category" onclick="window.location.href='cocina.html'">
+                <img src="cosinas.jpg" alt="Cocina" class="category-img" /> <!-- Cambia la ruta aquí -->
+                <p>Cocina</p>
+            </div>
+        
+            <div class="category" onclick="window.location.href='banos.html'">
+                <img src="baños.jpg" alt="Baños" class="category-img" /> <!-- Cambia la ruta aquí -->
+                <p>Baños</p>
+            </div>
+        
+            <div class="category" onclick="window.location.href='exterior.html'">
+                <img src="exterior.jpg" alt="Exterior" class="category-img" /> <!-- Cambia la ruta aquí -->
+                <p>Exterior</p>
+            </div>
+        </div>
+        
+        <style>
+            .categories {
+                display: flex;
+                flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas */
+                gap: 20px; /* Espacio entre los elementos */
+                justify-content: center; /* Centra los elementos en el contenedor */
+            }
+        
+            .category {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 200px; /* Ajusta el ancho según sea necesario */
+                cursor: pointer; /* Cambia el cursor al pasar el mouse */
+            }
+        
+            .category-img {
+                width: 100%; /* La imagen se ajusta al ancho del contenedor */
+                height: auto; /* Mantiene la proporción de la imagen */
+                max-height: 150px; /* Ajusta la altura máxima según sea necesario */
+                object-fit: cover; /* Recorta la imagen si es necesario */
+            }
+        
+            p {
+                margin: 10px 0 0 0; /* Margen para separar el texto de la imagen */
+                text-align: center; /* Centrar el texto */
+            }
+        </style>
+        
+</body>
+</html>
